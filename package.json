@@ -1,0 +1,19 @@
+{
+  "name": "source-map-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node rollup.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vue/compiler-sfc": "^3.1.5"
+  },
+  "devDependencies": {
+    "rollup": "^2.53.2",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-vue": "^6.0.0"
+  }
+}
