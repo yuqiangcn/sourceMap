@@ -1,8 +1,8 @@
 <template>
   <div></div>
 </template>
-<script lang="ts">
-let x: 10;
+<script>
+let x = 10;
 export default {};
 </script>
 <style>

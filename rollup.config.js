@@ -20,6 +20,13 @@ async function bundle() {
   });
   for (const chunk of result.output) {
     console.log("chunk:", chunk.map); // SourceMap
+
+    if (chunk.code) {
+      const minifyResult = await require("terser").minify(chunk.code, {
+        sourceMap: true,
+      });
+      console.log("minifyMap:", minifyResult.map);
+    }
   }
 }
 bundle();
