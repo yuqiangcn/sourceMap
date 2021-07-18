@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "add.js",
+  "sourceRoot": "",
+  "sources": [
+    "add.ts"
+  ],
+  "names": [],
+  "sourcesContent": [
+    "const add = (x:number,y:number) => {\n  return x+y;\n}"
+  ],
+  "mappings": "AAAA,IAAM,GAAG,GAAG,UAAC,CAAQ,EAAC,CAAQ;IAC5B,OAAO,CAAC,GAAC,CAAC,CAAC;AACb,CAAC,CAAA"
+}

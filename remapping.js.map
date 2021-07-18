@@ -1,0 +1,1 @@
+{"version":3,"mappings":"AACA,MAAMA,IAAM,SAACC,EAAEC,GACb,OAAOD,EAAEC","names":["add","a","b"],"sources":["origin.js"],"sourcesContent":["\nconst add = (a,b) => {\n  return a+b;\n}\n"]}

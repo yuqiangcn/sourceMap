@@ -1,5 +1,6 @@
 const rollup = require("rollup");
 const path = require("path");
+const { read } = require("fs");
 const rollupPluginVue = require("rollup-plugin-vue");
 const css = require("rollup-plugin-css-only");
 
